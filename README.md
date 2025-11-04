@@ -4,9 +4,9 @@
 
 使用Google Colaboratory必须翻墙
 #為什麼要使用GPU?
-搞深度学习就必须要使用GPU，否则训练太慢了，自己用CPU训练一个AlexNet网络，数据量大了内存不够，数据量小模型训练不够，训练时办公也还特别卡，搞了2天，结果训练准确率才到0.5，程序员吗，遇山开山遇水搭桥，于是想个办法突破自己电脑限制。
+搞深度学习就必须要使用GPU，否則效率性價比都太低了 自己用CPU训练一个AlexNet网络 跟GPU無法相比
 # 為什麼選擇Colab?
-有以下几个原因：
+有以下幾個原因：
 
 第一、自己搞的是TensorFlow（Pytorch也可以用它，后期也准备削它）；
 
@@ -46,10 +46,10 @@ Colab就是一个编辑器，其格式为.ipynb，只不过它支持了TensorFlo
 <img width="478" height="678" alt="螢幕擷取畫面 2025-11-01 045645" src="https://github.com/user-attachments/assets/c4b76d7c-c544-44ba-932a-fb08c73f2456" />
 
 
-采用CPU训练结果如下，每步需要90ms，一个迭代需要140s。
+CPU的訓練成果如下，可以看到每步需要至少90ms，一个迭代至少需要140s。
 
 <img width="817" height="91" alt="螢幕擷取畫面 2025-11-01 041454" src="https://github.com/user-attachments/assets/7e3d45e1-f58a-4ce5-b592-a69ee59f22cc" />
 
-接下来我们看看GPU模式下，每步耗时ms，每个迭代耗时7s，与CPU的140s相比，性能提升太多了。省下来的时间写个代码它不想吗？
+在GPU模式下，每步耗時5ms，每个迭代耗時7s，在與CPU的140s對比下 GPU的性能提升太多了。
 
 <img width="614" height="675" alt="螢幕擷取畫面 2025-11-01 045244" src="https://github.com/user-attachments/assets/9b9a5499-7cb0-44ce-bcea-8b438a74cba7" />
