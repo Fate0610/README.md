@@ -50,6 +50,6 @@ Colab就是一个编辑器，其格式为.ipynb，只不过它支持了TensorFlo
 
 <img width="817" height="91" alt="螢幕擷取畫面 2025-11-01 041454" src="https://github.com/user-attachments/assets/7e3d45e1-f58a-4ce5-b592-a69ee59f22cc" />
 
-接下来我们看看GPU模式下，每步耗时5ms，每个迭代耗时7s，与CPU的211s相比，性能提升太多了。省下来的时间写个代码它不想吗？
+接下来我们看看GPU模式下，每步耗时ms，每个迭代耗时7s，与CPU的140s相比，性能提升太多了。省下来的时间写个代码它不想吗？
 
 <img width="614" height="675" alt="螢幕擷取畫面 2025-11-01 045244" src="https://github.com/user-attachments/assets/9b9a5499-7cb0-44ce-bcea-8b438a74cba7" />
