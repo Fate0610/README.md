@@ -46,7 +46,7 @@ Colab就是一个编辑器，其格式为.ipynb，只不过它支持了TensorFlo
 <img width="478" height="678" alt="螢幕擷取畫面 2025-11-01 045645" src="https://github.com/user-attachments/assets/c4b76d7c-c544-44ba-932a-fb08c73f2456" />
 
 
-采用CPU训练结果如下，每步需要135ms，一个迭代需要211s。
+采用CPU训练结果如下，每步需要90ms，一个迭代需要140s。
 
 <img width="817" height="91" alt="螢幕擷取畫面 2025-11-01 041454" src="https://github.com/user-attachments/assets/7e3d45e1-f58a-4ce5-b592-a69ee59f22cc" />
 
