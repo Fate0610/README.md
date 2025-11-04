@@ -1,4 +1,4 @@
-# 如何一步步用Google Colaboratory训练自己的模型？
+# 如何一步步用Google Colaboratory訓練自己的模型？
 # 11234006 賴仕泓 11210017鄭美雪
 本文介紹如何利用Google Colaboratory免費GPU資源進行高效深度學習模型训练，並對比了GPU與CPU在訓練過程中的性能差異。
 
